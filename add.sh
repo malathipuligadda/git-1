@@ -3,8 +3,9 @@
  
 read -p "Enter first number: " num1
 read -p "Enter second number: " num2
- 
-sum=$(( $num1 + $num2 ))
+read -p "Enter thind number: " num3
+
+sum=$(( $num1 + $num2 + $num3 ))
  
 echo "Sum is: $sum"
 
